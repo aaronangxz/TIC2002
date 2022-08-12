@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/W2E1-create-rectangle-objects" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/W2E2-use-rectangle-objects" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/W2E3-pass-objects-to-move-method" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/W2E5-add-getters-setters-to-circle-class" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/W2E6-add-getMaxRadius-to-circle-class" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

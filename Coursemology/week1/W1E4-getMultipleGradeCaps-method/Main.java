@@ -1,7 +1,12 @@
 public class Main {
-
     //ADD YOUR getMultipleGradeCaps METHOD HERE
-
+    public static double[] getMultipleGradeCaps(String[] grades) {
+        double[] caps = new double[grades.length];
+        for (int i = 0; i < grades.length; i++) {
+            caps[i] = getGradeCap(grades[i]);
+        }
+        return caps;
+    }
     public static double getGradeCap(String grade) {
         double cap = 0;
         switch (grade) {
@@ -28,7 +33,6 @@ public class Main {
         }
         return cap;
     }
-
     public static void main(String[] args) {
         String[] grades = new String[]{"A+", "A", "A-"};
         double[] caps = getMultipleGradeCaps(grades);
