@@ -1,7 +1,7 @@
 //WARNING: Do not change the code of this class
-public class Main {
+public class MainE5 {
     public static void main(String[] args) {
-        Circle c = new Circle(1,2, 5);
+        CircleE5 c = new CircleE5(1,2, 5);
 
         c.setX(4);
         c.setY(5);
@@ -13,7 +13,7 @@ public class Main {
 
         c.setRadius(-5);
         System.out.println("radius : " + c.getRadius());
-        c = new Circle(1, 1, -4);
+        c = new CircleE5(1, 1, -4);
         System.out.println("radius : " + c.getRadius());
 
     }

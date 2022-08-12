@@ -1,14 +1,14 @@
-public class Circle {
+public class CircleE6 {
     private int x;
     private int y;
     private double radius;
     private static double maxRadius;
 
-    public Circle() {
+    public CircleE6() {
         this(0, 0, 0);
     }
 
-    public Circle(int x, int y, double radius) {
+    public CircleE6(int x, int y, double radius) {
         setX(x);
         setY(y);
         setRadius(radius);
@@ -47,4 +47,7 @@ public class Circle {
     }
 
     //TODO: Add your code here
+    public static double getMaxRadius() {
+        return maxRadius;
+    }
 }

@@ -1,9 +1,19 @@
 import java.awt.Point;
 import java.awt.Rectangle;
 
-public class Main {
+public class MainE3 {
 
     //TODO: add your method here
+    public static Point move(Point p, Rectangle r){
+        if (p == null || r == null){
+            return null;
+        }
+        Point newPoint = new Point(r.x, r.y);
+        r.x = p.x;
+        r.y = p.y;
+        // ...
+        return newPoint;
+    }
 
     public static void main(String[] args) {
         // WARNING: Do not change the code of this method
