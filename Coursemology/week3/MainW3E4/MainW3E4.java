@@ -1,3 +1,5 @@
+package Coursemology.week3.MainW3E4;
+
 import java.util.Arrays;
 import java.util.Scanner;
 

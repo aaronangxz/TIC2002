@@ -1,3 +1,5 @@
+package Coursemology.week3.MainW3E1;
+
 public class MainW3E1 {
 
     public static void printPrice(String item) {

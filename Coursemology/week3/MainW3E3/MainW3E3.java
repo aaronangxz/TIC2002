@@ -1,3 +1,5 @@
+package Coursemology.week3.MainW3E3;
+
 import java.util.Arrays;
 
 public class MainW3E3 {

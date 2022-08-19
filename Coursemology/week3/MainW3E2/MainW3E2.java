@@ -1,3 +1,5 @@
+package Coursemology.week3.MainW3E2;
+
 public class MainW3E2 {
 
     public static void printTotalScore(String[] values){
