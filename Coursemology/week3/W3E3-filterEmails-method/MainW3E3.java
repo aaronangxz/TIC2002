@@ -1,12 +1,21 @@
 import java.util.Arrays;
 
-public class Main {
-    public static String[] filterEmails(String[] items) {
-        //TODO: Add your code here
+public class MainW3E3 {
+    public static String[] filterEmails(String[] items){
+        String[] results = new String[items.length];
+        int matchCount = 0;
+        for(String item: items){
+            if (item.contains("@")){
+                results[matchCount] = item;
+                matchCount++;
+            }
+        }
+        return Arrays.copyOf(results, matchCount);
     }
 
     public static void printItems(String[] items) {
         //TODO: Add your code here
+        System.out.println(Arrays.toString(items));
     }
 
     public static void main(String[] args) {
